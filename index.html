@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<table class="outside">
+		<tr>
+			<td  colspan="4">
+				<div id="display-screen">
+					<input id="result" type="text" name="" disabled="true" style="none">   <!-- where the output is displayed -->
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="box-design" onclick="clearScreen()">
+					AC
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('-')">
+					+/-
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('%')">
+					%
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('/')">
+					/
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="box-design" onclick="display('7')">
+						7					
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('8')">
+					8
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('9')">
+					9
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('*')">
+					*
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="box-design" onclick="display('4')">
+					4
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('5')">
+					5
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('6')">
+					6
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('-')">
+					-
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="box-design" onclick="display('1')">
+					1
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('2')">
+					2
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('3')">
+					3
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('+')">
+					+
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div id="zero-box" onclick="display('0')">
+					0
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="display('.')">
+					.
+				</div>
+			</td>
+			<td>
+				<div class="box-design" onclick="caluculate()">
+					=
+				</div>
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#result
+{
+	width: 41em;
+	height: 4em;
+	padding: 5px;
+	color: #f9042f;
+}
+#display-screen
+{
+	border: solid 2px black;
+	border-radius: 5px;
+	background: purple;
+	width: 35em;
+	height: 4em;
+	padding: 5px;
+}
+
+
+#zero-box
+{
+	border: solid 2px black;
+	border-radius: 10px;
+	color: #f9042f;
+	background: purple;
+	width: 15em;
+	height: 4em;
+	padding-left: 35px;
+	padding-top: 17px;
+	/*padding: 8px;*/
+	text-align: center;
+}
+
+.outside
+{
+	border: solid 2px black;
+	background: black;
+	margin: auto;
+    margin-top: 10%;
+    height: 30rem;
+    width: 30rem;
+}
+.box-design
+{
+	border: solid 2px black;
+	border-radius: 5px;
+	color: #f9042f;
+	background: purple;
+	width: 7em;
+	height: 4em;
+	padding: 8px;
+	text-align: center;
+}
